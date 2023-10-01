@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>hu.cubix.cloud</groupId>
 	<artifactId>cubix-webinar-api-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>23.10.1-SNAPSHOT</version>
 	<name>cubix-webinar-api-demo</name>
 	<description>Spring Boot demo project with API for Cubix Webinar about cloud native applications</description>
 	<properties>
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
-            <version>7.3</version>
+            <version>7.4</version>
             <scope>runtime</scope>
         </dependency>
 
