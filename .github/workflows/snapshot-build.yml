@@ -20,4 +20,4 @@ jobs:
     - name: Docker login
       run: docker login ghcr.io -u drsylent -p ${{ github.token }}
     - name: Build and push the Docker image
-      run: docker build -t ghcr.io/drsylent/cubix/webinar/api:snapshot --platform linux/amd64,linux/arm64 --push .
+      run: docker build -t ghcr.io/drsylent/cubix/webinar/api:snapshot --builder multiplatform --platform linux/amd64,linux/arm64 --push .
